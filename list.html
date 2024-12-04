@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donor List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>💉 Blood Donor List</h1>
+        <p>Find suitable donors easily</p>
+    </header>
+    <main>
+        <section id="filter-section">
+            <h2>Filter Donors</h2>
+            <form id="filterForm">
+                <label for="filterBloodGroup">Blood Group</label>
+                <input type="text" id="filterBloodGroup" placeholder="e.g., A+, B-" />
+
+                <label for="filterLocation">Location</label>
+                <input type="text" id="filterLocation" placeholder="City, State" />
+
+                <button type="submit">Apply Filters</button>
+                <button type="button" id="clearFilters">Clear Filters</button>
+            </form>
+        </section>
+
+        <section id="donor-list-section">
+            <h2>Available Donors</h2>
+            <ul id="donorDisplay"></ul>
+        </section>
+
+        <a href="input.html">
+            <button>Go to Donor Registration</button>
+        </a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blood Donor Registry | All Rights Reserved</p>
+    </footer>
+    <script src="list.js"></script>
+</body>
+</html>

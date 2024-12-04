@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register as a Donor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>💉 Register as a Donor</h1>
+        <p>Join the community to save lives</p>
+    </header>
+    <main>
+        <section id="input-form">
+            <h2>Enter Your Details</h2>
+            <form id="donorForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required />
+
+                <label for="bloodGroup">Blood Group</label>
+                <input type="text" id="bloodGroup" placeholder="e.g., A+, B-" required />
+
+                <label for="lastDonation">Last Donation Date</label>
+                <input type="date" id="lastDonation" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required />
+
+                <label for="location">Location</label>
+                <input type="text" id="location" placeholder="City, State" required />
+                
+                <label for="lastDonation">Last Donation Date</label>
+                <input type="date" id="lastDonation" required />
+
+                <button type="submit">Submit</button>
+            </form>
+            <a href="list.html">
+                <button type="next">View Donor List</button>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blood Donor Registry | All Rights Reserved</p>
+    </footer>
+    <script src="input.js"></script>
+</body>
+</html>
